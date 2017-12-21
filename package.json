@@ -1,0 +1,28 @@
+{
+  "name": "ethchainexport",
+  "version": "1.0.0",
+  "description": "Fast Chain Sync for Ethereum Nodes (INSECURE!)",
+  "main": "ethChainExport.js",
+  "dependencies": {
+    "folder-hash": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/art-blocksec/Ethereum-chaindata-export.git"
+  },
+  "keywords": [
+    "Ethereum",
+    "Chaindata",
+    "export"
+  ],
+  "author": "Art Richards <art@blocksec.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/art-blocksec/Ethereum-chaindata-export/issues"
+  },
+  "homepage": "https://github.com/art-blocksec/Ethereum-chaindata-export#readme"
+}

@@ -1,0 +1,25 @@
+{ name: 'ChainDataTest', hash: '0F0Oj3CUQ1DHPyE8LQhYFhC15kC/JNyl3wsJOy9tIFQ='
+  children: [
+    { name: 'ChainDataTestSubfolder', hash: '3dO/E/kZ3k6Dthk8MF7QQMEedaNX7Dh4GhlLpfqxz68='
+      children: [
+        { name: 'teststring1.test', hash: '/mil9yKZjpIlvhRIbKr/k2hWZIuG1hIhfHP4+NEeH6E=' }
+        { name: 'teststring2.test', hash: '3goCI0LkHViuRu3LS9bVex68fbQOaoWVul1tC3W+qEQ=' }
+        { name: 'teststring3.test', hash: 'L3RWwJpI3Vm6QGLHrSt9gn1cmzcDpkyQyZ0kk97Lek0=' }
+      ] }
+    { name: 'ChainDataTestSubfolder_diff', hash: 'lj8al9QtjEfQSdDTdSfzQTT52qrc2vSKN+1fCWdqPB0='
+      children: [
+        { name: 'teststring1.test', hash: '22RNydDuzelpDSLSmD+FEM4K0HSD9DxeRqd7/4yprIs=' }
+      ] }
+    { name: 'ChainDataTestSubfolder_dupParent', hash: 'g9HgXTqkaDxS4TZe8JXCD+1rI/d/ye/rNKOaJNEnYl4='
+      children: [
+        { name: 'ChainDataTestSubfolder', hash: '3dO/E/kZ3k6Dthk8MF7QQMEedaNX7Dh4GhlLpfqxz68='
+          children: [
+            { name: 'teststring1.test', hash: '/mil9yKZjpIlvhRIbKr/k2hWZIuG1hIhfHP4+NEeH6E=' }
+            { name: 'teststring2.test', hash: '3goCI0LkHViuRu3LS9bVex68fbQOaoWVul1tC3W+qEQ=' }
+            { name: 'teststring3.test', hash: 'L3RWwJpI3Vm6QGLHrSt9gn1cmzcDpkyQyZ0kk97Lek0=' }
+          ] }
+      ] }
+    { name: 'teststring1.test', hash: '/mil9yKZjpIlvhRIbKr/k2hWZIuG1hIhfHP4+NEeH6E=' }
+    { name: 'teststring2.test', hash: '3goCI0LkHViuRu3LS9bVex68fbQOaoWVul1tC3W+qEQ=' }
+    { name: 'teststring3.test', hash: 'L3RWwJpI3Vm6QGLHrSt9gn1cmzcDpkyQyZ0kk97Lek0=' }
+  ] }
